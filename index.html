@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="div1">
+            <div id="nav">
+                <a href="index.html"><img src="Turticle.png" alt=""></a>
+                <div id="nav2">
+                <h4><a href="index.html">Home</a></h4>
+                <h4><a href="category.html">Category</a></h4>
+                <h4><a href="https://www.thegoldenconjunction.com/">Blog</a></h4>
+                </div>
+            </div>
+            <div id="center">
+                <div id="left1">EXPLORE</div>
+                <div id="left2">
+                    <div id="left2part1"><video src="video (2160p).mp4" muted autoplay loop></video></div>
+                    <div id="left2part2">ENGAGE</div>
+                </div>
+                <div id="left3">
+                    <div id="left3part1">ENLIGHTEN</div>
+                    <a href="category.html" id="try_now"><button>Try Now <i class="ri-arrow-right-up-line"></i></button></a>
+                    <div id="left3part2">"Stay Connected, Stay Informed. 
+                        Your Trusted Destination for Breaking 
+                        News, Analysis, and Insights. Explore 
+                        comprehensive coverage and stay ahead 
+                        with up-to-the-minute updates."</div>
+                </div>
+            </div>
+            <hr>
+        </div>
+            <div id="div2-part1" class="main-div2 container">
+
+                <div id="search">
+                    <div class="search-bar">
+                        <input type="text" id="search-text" class="news-input" placeholder="Explore topics, headlines, or keywords...">
+                        <button class="search-button" id="search-button"><i class="ri-search-2-line"></i></button>
+                    </div>
+        
+                </div>
+            </div>
+            <main>
+                <div class="cards-container container flex" id="news-container" >
+                    
+                </div>
+            </main>
+            <template id="template-news-card">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/400x200" alt="news-image" onerror="this.onerror=null; this.src='lucas-hoang-VgU5zIEy57A-unsplash.jpg';" id="news-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 id="news-title">this is the title</h3>
+                        <h6 class="news-source" id="news-source">end gadget 26/08/2023</h6>
+                        <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptates tenetur molestias sapiente consequatur asperiores sed ullam iusto iste minima.</p>
+                    </div>
+                </div>
+            </template>
+        <div id="div2-part2">
+            <a href="category.html">
+                <div id="moving-text"> 
+                    <div id="con">
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    </div>
+                    <div id="con">
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    </div>
+                    <div id="con">
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    <h1>VIEW MORE ARTICLES</h1>
+                    <div id="iconset">
+                    <i class="ri-external-link-fill"></i>
+                    </div>
+                    </div>
+                </div>
+        </a>
+        <div id="div2-part2-middle">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div id="question" ><i class="ri-question-mark"></i> <h6>How frequently are news cards updated on your website?</h6></div>
+                    <div id="answer">News cards receive regular updates throughout the day to ensure users have access to the latest information, keeping content fresh and relevant to their interests.</div>
+                  </div>
+                  <div class="swiper-slide"><div id="question" ><i class="ri-question-mark"></i> <h6>What sources does your API pull news articles from?</h6></div>
+                  <div id="answer">Our API pulls articles from diverse, reputable sources, emphasizing partnerships with trusted news outlets to deliver accurate and reliable information to our users.</div></div>
+                  <div class="swiper-slide"><div id="question" ><i class="ri-question-mark"></i> <h6>How accurate and reliable are the news sources used for generating news cards?</h6></div>
+                  <div id="answer">We prioritize reputable sources and employ rigorous fact-checking processes to ensure the accuracy and reliability of the news content provided to our users.</div></div>
+                  <div class="swiper-slide"><div id="question" ><i class="ri-question-mark"></i> <h6> Are there any specific categories or topics covered by the news cards?</h6></div>
+                  <div id="answer">Our news cards cover a wide range of categories and topics, including breaking news, entertainment, sports, politics, technology, and more, offering comprehensive coverage for diverse interests.</div></div>
+                  <div class="swiper-slide"><div id="question" ><i class="ri-question-mark"></i> <h6>Are there options for users to filter or search for specific news articles?</h6></div>
+                  <div id="answer">We're working on implementing filtering and search functionalities to empower users with enhanced navigation options, allowing them to find specific articles more efficiently based on their preferences.</div></div>
+                  <div class="swiper-slide"><div id="question" ><i class="ri-question-mark"></i> <h6>How can users verify the credibility of the news sources used by your website?</h6></div>
+                  <div id="answer">Users can verify credibility by clicking provided links, ensuring transparency regarding sources and allowing them to make informed decisions about the reliability of the news content.</div></div>
+                  <div class="swiper-slide"><div id="question" ><i class="ri-question-mark"></i> <h6>Is there any update coming to the website, and how frequent are these updates?</h6></div>
+                  <div id="answer">Yes, updates occur regularly with new features and fixes released periodically. Our agile approach ensures efficient updates based on user feedback and industry trends, aiming for consistent improvement in user experience.</div></div>
+                </div>
+               
+              </div>
+
+    
+
+
+
+
+        </div>
+        <a href="https://www.thegoldenconjunction.com/" id="back-link">
+            <div id="moving-text"> 
+                <div id="con">
+                <h1>VISIT OUR BLOGS </h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                </div>
+                <div id="con">
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                </div>
+                <div id="con">
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                <h1>VISIT OUR BLOGS</h1>
+                <div id="iconset">
+                <i class="ri-external-link-fill"></i>
+                </div>
+                </div>
+            </div>
+    </a>
+        </div>
+        <div id="footer">
+            <div id="footer-top">
+                <div id="footer-top1">
+                    <h6>Pages</h6>
+                    <a href="about.html">About Us</a>
+                    <a href="https://thegoldenconjunction.com/">Blog</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div id="footer-top2">
+                    <h6>Legal</h6>
+                    <a href="toc.html">Terms & Conditions</a>
+                </div>
+                <div id="footer-top3">
+                    <h6>Contact us</h6>
+                    <h6 id="mail">help@Turticle.in</h6>
+                </div>
+            </div>
+            <div id="footer-bottom">
+                <div id="footer-bottom1">
+                    <hr>
+                </div>
+                <div id="footer-bottom2">
+                    <h6>© 2024 Copyright, All Right Reserved</h6>
+                <h6 id="links">
+                    <a href="https://twitter.com/"><i class="ri-twitter-x-line"></i></a>
+                    <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+                </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index_script.js"></script>
+</body>
+</html>
