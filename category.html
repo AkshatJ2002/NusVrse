@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="category_style.css">
+</head>
+<body>
+    <div id="nav">
+        <a href="index.html"><img src="Turticle.png" alt=""></a>
+                <div id="nav2">
+                <h4><a href="index.html">Home</a></h4>
+                <h4><a href="category.html">Category</a></h4>
+                <h4><a href="https://www.thegoldenconjunction.com/">Blog</a></h4>
+                </div>
+    </div>
+    <div id="div2" class="main-div2 container">
+
+        <div id="search">
+            <div class="search-bar">
+                <input type="text" id="search-text" class="news-input" placeholder="Search for More Articles">
+                <button class="search-button" id="search-button"><i class="ri-search-2-line"></i></button>
+            </div>
+            <div class="search-links">
+                <ul>
+                    <li class="hover-link search-item" id="India" onclick="onNavItemClick('India')"> India </li>
+                    <li class="hover-link search-item"id="Cricket"onclick="onNavItemClick('Cricket')">Cricket</li>
+                    <li class="hover-link search-item"id="Politics"onclick="onNavItemClick('Politics')">Politics</li>
+                    <li class="hover-link search-item"id="BJP"onclick="onNavItemClick('BJP')">BJP</li>
+                    <li class="hover-link search-item"id="Sports"onclick="onNavItemClick('Sports')">Sports</li>
+                    <li class="hover-link search-item"id="Accident"onclick="onNavItemClick('Accident')">Accident</li>
+                    <li class="hover-link search-item"id="Buisness"onclick="onNavItemClick('Buisness')">Buisness</li>
+                    <li class="hover-link search-item"id="Virat"onclick="onNavItemClick('Virat')">Virat</li>
+                    <li class="hover-link search-item"id="Hockey"onclick="onNavItemClick('Hockey')">Hockey</li>
+                    <li class="hover-link search-item"id="Football"onclick="onNavItemClick('Football')">Football</li>
+                    <li class="hover-link search-item"id="Basketball"onclick="onNavItemClick('Basketball')">Basketball</li>
+                    <li class="hover-link search-item"id="Congress"onclick="onNavItemClick('Congress')">Congress</li>
+                    <li class="hover-link search-item"id="Parliament"onclick="onNavItemClick('Parliament')">Parliament</li>
+                    <li class="hover-link search-item"id="Google"onclick="onNavItemClick('Google')">Google</li>
+                    <li class="hover-link search-item"id="Facebook"onclick="onNavItemClick('Facebook')">Facebook</li>
+                    <li class="hover-link search-item"id="Elon"onclick="onNavItemClick('Elon')">Elon Musk</li>
+                    <li class="hover-link search-item"id="Amazon"onclick="onNavItemClick('Amazon')">Amazon</li>
+                    <li class="hover-link search-item"id="SBI"onclick="onNavItemClick('SBI')">SBI</li>
+                    <li class="hover-link search-item"id="USA"onclick="onNavItemClick('USA')">USA</li>
+                    <li class="hover-link search-item"id="Mumbai"onclick="onNavItemClick('Mumbai')">Mumbai</li>
+                    <li class="hover-link search-item"id="Delhi"onclick="onNavItemClick('Delhi')">Delhi</li>
+                    <li class="hover-link search-item"id="Rights"onclick="onNavItemClick('Rights')">Rights</li>
+                    <li class="hover-link search-item"id="Social"onclick="onNavItemClick('Social')">Social</li>
+                    <li class="hover-link search-item"id="Education"onclick="onNavItemClick('Education')">Education</li>
+                    <li class="hover-link search-item"id="Technology"onclick="onNavItemClick('Technology')">Technology</li>
+                    <li class="hover-link search-item"id="AI"onclick="onNavItemClick('AI')">AI</li>
+                    <li class="hover-link search-item"id="GPt"onclick="onNavItemClick('GPt')">GPt</li>
+                    <li class="hover-link search-item"id="Climate"onclick="onNavItemClick('Climate')">Climate</li>
+                    <li class="hover-link search-item"id="Disasters"onclick="onNavItemClick('Disasters')">Disasters</li>
+                    <li class="hover-link search-item"id="Religion"onclick="onNavItemClick('Religion')">Religion</li>
+                    <li class="hover-link search-item"id="Hindu"onclick="onNavItemClick('Hindu')">Hindu</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+   
+    <main>
+        <div class="cards-container container flex" id="news-container" >
+            <div class="card skeleton-row" id="card ">
+                       
+            </div>
+            <div class="card skeleton-row" id="card">
+            
+            </div>
+            <div class="card skeleton-row" id="card">
+              
+            </div>
+            <div class="card skeleton-row" id="card">
+  
+            </div>
+            <div class="card skeleton-row" id="card ">
+                       
+            </div>
+            <div class="card skeleton-row" id="card">
+            
+            </div>
+            <div class="card skeleton-row" id="card">
+              
+            </div>
+            <div class="card skeleton-row" id="card">
+  
+            </div>
+        </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" onerror="this.onerror=null; this.src='lucas-hoang-VgU5zIEy57A-unsplash.jpg';" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">this is the title</h3>
+                <h6 class="news-source" id="news-source">end gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptates tenetur molestias sapiente consequatur asperiores sed ullam iusto iste minima.</p>
+            </div>
+        </div>
+    </template>
+    <div id="footer">
+        <div id="footer-top">
+            <div id="footer-top1">
+                <h6>Pages</h6>
+                <a href="about.html">About Us</a>
+                <a href="https://thegoldenconjunction.com/">Blog</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div id="footer-top2">
+                <h6>Legal</h6>
+                <a href="toc.html">Terms & Conditions</a>
+            </div>
+            <div id="footer-top3">
+                <h6>Contact us</h6>
+                <h6 id="mail">help@Turticle.in</h6>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div id="footer-bottom1">
+                <hr>
+            </div>
+            <div id="footer-bottom2">
+                <h6>© 2024 Copyright, All Right Reserved</h6>
+            <h6 id="links">
+                <a href="https://twitter.com/"><i class="ri-twitter-x-line"></i></a>
+                <a href="https://www.instagram.com/"><i class="ri-instagram-line"></i></a>
+            </h6>
+            </div>
+        </div>
+    </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+    <script src="category_script.js"></script>
+</body>
+</html>
