@@ -465,6 +465,7 @@ margin-left: 23px;
     /* margin-top: -18vh; */
     /* margin-bottom: 15vh; */
     height: 24vh;
+    overflow:hidden;
 }
 #moving-text2 h1{
     font-size: 7vw;
