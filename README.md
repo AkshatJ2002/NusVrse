@@ -1,12 +1,12 @@
-NusVrse: An Interactive News Aggregator Website Project Report
+## NusVrse: An Interactive News Aggregator Website Project Report
 
 
-Introduction 
+ **Introduction**
 
 This report outlines the development of NusVrse, In today's fast-paced digital era, accessing news online has become the norm. " NusVrse " aims to simplify this process. By harnessing the power of the SERP API, we're creating a user-friendly website where individuals can effortlessly discover the latest news from diverse sources. Our goal is to provide a seamless and enjoyable news browsing experience, empowering users to stay informed with ease in our rapidly evolving world.
 
 
-Statement of the Problem
+## ✒️**Statement of the Problem**
 
 In the realm of online news consumption, users face challenges amidst the abundance of available platforms. While major news aggregators exist, such as Google News, they often lack:
 •	Personalization: Users may struggle to find news tailored to their interests and preferences.
