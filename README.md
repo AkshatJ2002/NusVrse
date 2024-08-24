@@ -1,5 +1,5 @@
 # NusVrse: An Interactive News Aggregator Website Project Report
-
+**Visit [Here](NusVrse.netlify.app)**
 ## Introduction
 
 This report outlines the development of NusVrse. In today's fast-paced digital era, accessing news online has become the norm. "NusVrse" aims to simplify this process. By harnessing the power of the SERP API, we're creating a user-friendly website where individuals can effortlessly discover the latest news from diverse sources. Our goal is to provide a seamless and enjoyable news browsing experience, empowering users to stay informed with ease in our rapidly evolving world.
@@ -112,13 +112,13 @@ This section delineates the methodology proposed for the development of our news
 - **Customization Options**: Customize publisher profiles with descriptions, logos, and social media links.
 - **Engagement Analytics**: Access analytics dashboards to monitor readership metrics, including views, shares, and user interactions.
 
-### Additional Features
+## Contribution to the Ecosystem
 
-- **Push Notifications**: Subscribers can receive notifications for new articles, updates, and special features.
-- **Customer Support**: A dedicated support system ensures prompt assistance for any inquiries or concerns.
+NusVrse aims to:
 
-## Overall Ecosystem Growth
+- **Encourage Diversity**: Provide a platform for various news perspectives.
+- **Empower Local Journalists**: Support local journalism by offering a platform for local news.
 
-NusVrse aims to play a pivotal role in nurturing a robust and dynamic online news ecosystem. Here's how we anticipate our platform contributing to its growth:
-- **Encouraging Diversity and Innovation**: By providing a platform for various news sources and perspectives, we aim to foster diversity in media and stimulate innovation in storytelling and reporting techniques.
-- **Empowering Local Journalists**: Our platform seeks to empower local journalists and news organizations by
+---
+
+Thank you for exploring NusVrse. We hope you enjoy using our platform as much as we enjoyed creating it.
